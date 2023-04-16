@@ -553,7 +553,7 @@
   <order>
     <hop>
       <from>Дата</from>
-      <to>Тариф</to>
+      <to>Запись в fact_flights</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -573,7 +573,7 @@
     </hop>
     <hop>
       <from>Пассажир</from>
-      <to>Запись в fact_flights</to>
+      <to>Дата</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -593,7 +593,7 @@
     </hop>
     <hop>
       <from>Самолет</from>
-      <to>Дата</to>
+      <to>Тариф</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -686,8 +686,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1159</xloc>
-      <yloc>312</yloc>
+      <xloc>1024</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1085,8 +1085,8 @@ from bookings.flights f
       </output>
     </remotesteps>
     <GUI>
-      <xloc>999</xloc>
-      <yloc>312</yloc>
+      <xloc>880</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1132,8 +1132,8 @@ from bookings.flights f
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1319</xloc>
-      <yloc>312</yloc>
+      <xloc>1168</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1179,7 +1179,7 @@ from bookings.flights f
       </output>
     </remotesteps>
     <GUI>
-      <xloc>880</xloc>
+      <xloc>768</xloc>
       <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1518,8 +1518,8 @@ from bookings.flights f
       </output>
     </remotesteps>
     <GUI>
-      <xloc>768</xloc>
-      <yloc>320</yloc>
+      <xloc>1312</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
